@@ -9,18 +9,26 @@
 body {
   font-family: Arial, sans-serif;
   }
-
+.imgbox {
+            display: grid;
+            height: 100%;
+        }
+.center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
 
 </style>
     
 </head>
 <body>
     <p>
-      <div id = "reset">
-          Bienvenidos
-          <img src="docs/assets/images/vistaexterior.jpg" alt="Vista Exterior">
-          
-        </div>
+
+        <div class="imgbox">
+    <img class="center-fit" src="docs/assets/images/vistaexterior.jpg">
+</div>
+
     </p>
 </body>
 </html>
